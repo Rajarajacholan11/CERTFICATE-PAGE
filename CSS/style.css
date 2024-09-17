@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Certificate Page Background */
+.og {
+    background-image: url(/IMAGES/thumb-1920-1351709.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 7
+    0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container for form and certificate preview */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Form Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Certificate Preview */
+#certificate-section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#certificate {
+    margin-top: 20px;
+
+    
+    width: 100%;
+    max-width: 550px;
+    min-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(/IMAGES/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Certificate Text Styles */
+#certificate h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#certificate p, #certificate h2, #certificate h3, #certificate h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Ensure the hidden class works properly */
+.hidden {
+    display: none !important;  /* Ensure the hidden class works by using !important */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+
+    #certificate {
+        padding: 15px;
+        font-size: 90%;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    #certificate {
+        font-size: 85%;
+    }
+
+    input, button {
+        font-size: 12px;
+    }
+
+    #certificate h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    #certificate {
+        font-size: 80%;
+        padding: 10px;
+    }
+
+    input, button {
+        font-size: 12px;
+    }
+
+    #certificate h1 {
+        font-size: 20px;
+    }
+}
