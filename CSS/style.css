@@ -12,7 +12,7 @@ body {
 
 /* Certificate Page Background */
 .og {
-    background-image: url(/IMAGES/thumb-1920-1351709.jpeg);
+    background-image: url('../IMAGES/thumb-1920-1351709.jpeg');
     background-size: cover;
     background-position: center;
     width: 7
